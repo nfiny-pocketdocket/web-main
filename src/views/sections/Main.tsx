@@ -5,6 +5,7 @@ export const Main = () => {
   return (
     <SectionLayout justifyContent={[undefined, undefined, "center"]}>
       <Grid
+        maxW="1100px"
         templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(2, 1fr)"]}
         gap={8}
       >
@@ -19,7 +20,10 @@ export const Main = () => {
               time.
             </Box>
 
-            <Image src="/icons/ios-download.svg" w="150px" mt="50px" />
+            <Flex flexDir="column" w="150px" mt="50px">
+              <Box fontSize="14px">Coming soon to</Box>
+              <Image src="/icons/ios-download.svg" />
+            </Flex>
           </Flex>
         </Flex>
 

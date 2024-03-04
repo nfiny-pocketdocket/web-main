@@ -3,7 +3,7 @@ import { SectionLayout } from "../../components/shared/SectionLayout";
 
 export const Features = () => {
   return (
-    <SectionLayout bg="#F6F6F6" justifyContent={undefined}>
+    <SectionLayout bg="white" justifyContent={undefined}>
       <Box fontSize={["30px", "30px", "35px"]} fontWeight="700">
         Features
       </Box>

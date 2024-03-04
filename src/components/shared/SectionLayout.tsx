@@ -9,11 +9,10 @@ export const SectionLayout = ({ children, ...styles }) => {
       justifyContent="center"
       alignItems="center"
       zIndex={10}
+      p="5%"
       {...styles}
     >
-      <Flex p="5%" maxW="1200px">
-        {children}
-      </Flex>
+      {children}
     </Flex>
   );
 };
