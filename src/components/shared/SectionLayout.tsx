@@ -11,7 +11,9 @@ export const SectionLayout = ({ children, ...styles }) => {
       zIndex={10}
       {...styles}
     >
-      {children}
+      <Flex p="5%" maxW="1200px">
+        {children}
+      </Flex>
     </Flex>
   );
 };

@@ -3,21 +3,23 @@ import { SectionLayout } from "../../components/shared/SectionLayout";
 
 export const Main = () => {
   return (
-    <SectionLayout padding="16px">
+    <SectionLayout
+      padding="16px"
+      justifyContent={[undefined, undefined, "center"]}
+    >
       <Grid
-        w={["100%", "100%", "65%"]}
         templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(2, 1fr)"]}
-        gap={16}
+        gap={8}
       >
         <Flex flexDir="column" justifyContent="space-between">
           <Flex flexDir="column" gap="16px">
-            <Box fontSize={["35px", "35px", "53px"]} fontWeight="700">
+            <Box fontSize={["35px", "35px", "42px"]} fontWeight="800">
               Simplifying variability.
             </Box>
             <Box fontSize="18px">
               PocketDocket lets you ditch the paper, and ensure all your
-              Variability Dockets are signed on the spot, stored, reported on,
-              and paid on time.
+              Variability Dockets are signed, stored, reported, and paid on
+              time.
             </Box>
 
             <Image src="/icons/ios-download.svg" w="150px" mt="50px" />
