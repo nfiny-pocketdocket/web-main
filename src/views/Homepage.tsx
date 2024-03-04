@@ -1,12 +1,13 @@
 import { Flex } from "@chakra-ui/react";
 import { Main } from "./sections/Main";
 import { SectionLayout } from "../components/shared/SectionLayout";
+import { Features } from "./sections/Features";
 
 export const Homepage = () => {
   return (
     <Flex flexDir="column" overflowX="hidden">
       <Main />
-      <Part bg="blue" />
+      <Features />
       <Part />
       <Part bg="blue" />
     </Flex>

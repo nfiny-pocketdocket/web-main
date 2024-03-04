@@ -3,10 +3,7 @@ import { SectionLayout } from "../../components/shared/SectionLayout";
 
 export const Main = () => {
   return (
-    <SectionLayout
-      padding="16px"
-      justifyContent={[undefined, undefined, "center"]}
-    >
+    <SectionLayout justifyContent={[undefined, undefined, "center"]}>
       <Grid
         templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(2, 1fr)"]}
         gap={8}
@@ -28,7 +25,7 @@ export const Main = () => {
 
         <Box pos="relative" zIndex={9}>
           <Image
-            top={["0", "0", "-90px"]}
+            top={["0", "0", "-50px"]}
             left={["-55px", "-55px", "0"]}
             pos="absolute"
             src="/images/mobile-dual.png"
