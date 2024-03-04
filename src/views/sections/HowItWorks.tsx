@@ -67,11 +67,13 @@ const NumberedRow = ({ num, title, subtitle }) => {
         alignItems="center"
         fontSize="20px"
         fontWeight="800"
-        bg="green"
+        bg="#FE8E38"
         borderRadius="50%"
         minW="50px"
         w="50px"
         h="50px"
+        color="white"
+        boxShadow="2px 7px 14px -6px rgba(0,0,0,0.75)"
       >
         {num}
       </Flex>
