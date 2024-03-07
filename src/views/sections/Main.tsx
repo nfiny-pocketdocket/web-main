@@ -10,13 +10,13 @@ export const Main = () => {
         gap={8}
       >
         <Flex flexDir="column" justifyContent="space-between">
-          <Flex flexDir="column" gap="16px">
+          <Flex flexDir="column">
             <Box fontSize={["35px", "35px", "42px"]} fontWeight="800">
               Simplifying <span style={{ color: "#FF9954" }}>variability.</span>
             </Box>
             <Flex fontSize="20px" flexDir="row" alignItems="center" gap="4px">
-              <Image src="/logo-transparent.png" w="160px" />
-              lets you ditch the paper,
+              Ditch the paper with
+              <Image src="/logo-transparent.png" w="140px" />
             </Flex>
             <Box fontSize="20px">
               and ensure all your Variability Dockets are signed, stored,
