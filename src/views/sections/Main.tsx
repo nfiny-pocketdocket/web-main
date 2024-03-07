@@ -12,14 +12,18 @@ export const Main = () => {
         <Flex flexDir="column" justifyContent="space-between">
           <Flex flexDir="column" gap="16px">
             <Box fontSize={["35px", "35px", "42px"]} fontWeight="800">
-              Simplifying variability.
+              Simplifying <span style={{ color: "#FF9954" }}>variability.</span>
             </Box>
-            <Box fontSize="18px">
-              PocketDocket lets you ditch the paper, and ensure all your
-              Variability Dockets are signed, stored, reported, and paid on
-              time.
+            <Flex fontSize="20px" flexDir="row" alignItems="center" gap="4px">
+              <Box>
+                <Image src="/logo-transparent.png" w="160px" />
+              </Box>
+              lets you ditch the paper,
+            </Flex>
+            <Box fontSize="20px">
+              and ensure all your Variability Dockets are signed, stored,
+              reported, and paid on time.
             </Box>
-
             <Flex flexDir="column" w="150px" mt="50px">
               <Box fontSize="14px">Coming soon to</Box>
               <Image src="/icons/ios-download.svg" />

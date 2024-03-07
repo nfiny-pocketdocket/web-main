@@ -8,9 +8,6 @@ export const Homepage = () => {
   return (
     <Flex flexDir="column" overflowX="hidden">
       <Main />
-      <Features />
-      <HowItWorks />
-      <Part bg="blue" />
     </Flex>
   );
 };
