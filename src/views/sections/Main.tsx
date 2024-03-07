@@ -15,9 +15,7 @@ export const Main = () => {
               Simplifying <span style={{ color: "#FF9954" }}>variability.</span>
             </Box>
             <Flex fontSize="20px" flexDir="row" alignItems="center" gap="4px">
-              <Box>
-                <Image src="/logo-transparent.png" w="160px" />
-              </Box>
+              <Image src="/logo-transparent.png" w="160px" />
               lets you ditch the paper,
             </Flex>
             <Box fontSize="20px">
