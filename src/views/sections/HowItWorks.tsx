@@ -26,7 +26,7 @@ const CONTENT_LIST = [
 export const HowItWorks = () => {
   return (
     <SectionLayout bg="#F6F6F6" justifyContent={undefined} gap="26px">
-      <Box fontSize={["30px", "30px", "35px"]} fontWeight="700">
+      <Box fontSize={["2em", "2em", "2.5em"]} fontWeight="700">
         How it Works
       </Box>
       <Flex flexDir="column" w="100%" h="100%" maxW="800px" alignItems="center">
@@ -42,14 +42,14 @@ export const HowItWorks = () => {
           <Flex
             flexDir="column"
             justifyContent="space-between"
-            gap="30px"
-            py="26px"
+            gap="5%"
+            py="5%"
           >
             {CONTENT_LIST.map((x, i) => (
               <NumberedRow num={i + 1} title={x.title} subtitle={x.subtitle} />
             ))}
           </Flex>
-          <Flex flexDir="row" justifyContent="flex-end">
+          <Flex flexDir="row" justifyContent="center">
             <Image src="/images/mobile-how-it-works.png" w="300px" />
           </Flex>
         </Grid>

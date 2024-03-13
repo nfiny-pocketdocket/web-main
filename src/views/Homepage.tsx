@@ -3,6 +3,8 @@ import { Main } from "./sections/Main";
 import { SectionLayout } from "../components/shared/SectionLayout";
 import { Features } from "./sections/Features";
 import { HowItWorks } from "./sections/HowItWorks";
+import { Testimonials } from "./sections/Testimonials";
+import { Download } from "./sections/Download";
 
 export const Homepage = () => {
   return (
@@ -10,7 +12,8 @@ export const Homepage = () => {
       <Main />
       <Features />
       <HowItWorks />
-      <Part bg="blue" />
+      <Testimonials />
+      <Download />
     </Flex>
   );
 };
