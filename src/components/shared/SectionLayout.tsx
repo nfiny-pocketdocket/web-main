@@ -4,7 +4,7 @@ export const SectionLayout = ({ children, ...styles }) => {
   return (
     <Flex
       w="100vw"
-      minH="100vh"
+      h="100vh"
       flexDir="column"
       justifyContent="center"
       alignItems="center"
